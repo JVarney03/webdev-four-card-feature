@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-black: #1c232b;
+  --color-grey: #6c7289;
+  --color-cream: #f2eae2;
+  --color-white: #ffffff;
+  --color-green-500: #3d8168;
+  --color-green-700: #1a4032;
+
+  --font-fraunces: "Fraunces";
+  --font-montserrat: "Montserrat";
+}
+
+@custom-variant hocus (&:hover, &:focus);
