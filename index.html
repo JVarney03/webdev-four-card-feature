@@ -1,33 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
-  <link rel="stylesheet" href="./src/style.css">
-</head>
-<body>
-  <main class="h-screen w-screen bg-amber-50"></main>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+    <title>Frontend Mentor | Four card feature section</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body class="font-poppins text-grey-500">
+    <main class="flex min-h-screen w-screen justify-center bg-white">
+      <div class="my-10 max-w-80">
+        <div class="mb-10 text-center">
+          <h2 class="text-2xl font-extralight">Reliable, efficient delivery</h2>
+          <h1 class="mb-4 text-2xl font-semibold">Powered by Technology</h1>
+          <p class="text-sm">
+            Our Artificial Intelligence powered tools use millions of project
+            data points to ensure that your project is successful
+          </p>
+        </div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+        <div class="grid gap-8">
+          <div class="shadow-drop border-cyan rounded-md border-t-6 p-8">
+            <h2 class="mb-1 text-lg font-semibold">Supervisor</h2>
+            <p class="mb-8 text-sm">
+              Monitors activity to identify project roadblocks
+            </p>
+            <div class="flex justify-end">
+              <img src="./images/icon-supervisor.svg" alt="" />
+            </div>
+          </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+          <div class="shadow-drop border-red rounded-md border-t-6 p-8">
+            <h2 class="mb-1 text-lg font-semibold">Team Builder</h2>
+            <p class="mb-8 text-sm">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <div class="flex justify-end">
+              <img src="./images/icon-team-builder.svg" alt="" />
+            </div>
+          </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+          <div class="shadow-drop border-orange rounded-md border-t-6 p-8">
+            <h2 class="mb-1 text-lg font-semibold">Karma</h2>
+            <p class="mb-8 text-sm">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <div class="flex justify-end">
+              <img src="./images/icon-karma.svg" alt="" />
+            </div>
+          </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-</body>
+          <div class="shadow-drop border-blue rounded-md border-t-6 p-8">
+            <h2 class="mb-1 text-lg font-semibold">Calculator</h2>
+            <p class="mb-8 text-sm">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <div class="flex justify-end">
+              <img src="./images/icon-calculator.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
